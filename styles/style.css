@@ -1,0 +1,192 @@
+
+body{
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+#staff {
+    border: 1px solid green;
+    border-style: outset;
+}
+
+header {
+    background-image: url(../images/carrots.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: orange;
+    border: 1px solid blue;
+    
+}
+
+#menuitems {
+    border-top: 4px solid white;
+    border-bottom: 2px solid white;
+    text-align: center;
+}
+
+#menuitems h1 {
+    font-weight: bold;
+}
+
+#cols {
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: 1px solid white;
+}
+
+#bigPic{
+    padding: 20px;
+    float: right;
+    width: 90%;
+}
+
+section h2 {
+    padding: 
+}
+
+nav {
+    background-color: black;
+    padding: 5px;
+}
+
+#videotour {
+    float: right;
+    display: inline-block;
+}
+
+.col_article {
+    column-count: 3;
+    column-gap: 20px;
+    column-rule: 2px solid white;
+}
+
+.backgroundImageB {
+    background-image: url(../images/bacon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3px solid black;
+    margin: 2px;
+}
+
+.backgroundImageC {
+    background-image: url(../images/carrots.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3px solid black;
+    margin: 2px;
+}
+
+.backgroundImageE {
+    background-image: url(../images/eggs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3px solid black;
+    margin: 2px;
+}
+
+nav ul {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li {
+    padding: 15px;
+    border-style: solid;
+    border: 2px;
+    border-color: red;
+    border-radius: 10px;
+    list-style-type: none;
+    background-color: grey;
+    display: inline;
+}
+
+nav ul li a :hover{
+    background-color: darkgrey;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration : none;
+}
+
+#active{
+    background-color: green;
+}
+
+#content{
+    color: white;
+    background-color: black;
+    float: left;
+    width: 80%;
+    margin-right: 15px;
+    border: 1px solid grey;
+}
+
+aside{
+    
+    color: white;
+    background-color: black;
+    border: 5px solid yellow;
+    width: 17.5%;
+    float: right;
+}
+
+aside ul li a{
+    color: blue;
+    text-decoration: none;
+}
+
+aside ul li{
+    color: white;
+    list-style-type: none;
+}
+
+aside ol li{
+    list-style-type: none;
+}
+
+.col_detail{
+    color: white;
+    background-color: black;
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+}
+
+.manager_col {
+    height: 70%;
+    width: 100%;
+    border 2px;
+}
+
+.manager_col img {
+    padding: 10px;
+    float: right;
+}
+
+footer{
+    clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+}
+
+footer ul{
+    display: inline;
+    list-style-type: none;
+}
+
+footer p{
+    text-align: center;
+}
